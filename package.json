@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "generate": "drizzle-kit generate --name init",
+    "migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.31.0",
+    "elysia": "latest",
+    "ulid": "^2.3.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "chalk": "^5.3.0",
+    "drizzle-kit": "^0.22.1"
+  }
+}

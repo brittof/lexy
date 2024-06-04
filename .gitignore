@@ -1,0 +1,15 @@
+.cache
+
+node_modules/
+.vscode/
+
+db/
+db/*
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+.DS_Store
